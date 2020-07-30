@@ -1,0 +1,13 @@
+.image-container {
+    width: 298px;
+    height: 197px;
+    position: relative;
+}
+
+.image-caption {
+    background-color: rgba(0, 0, 0, 0.75);
+    position: absolute;
+    bottom: 7px;
+    padding: 0 5px 2px 5px;
+    margin: 0 5px 2px 5px;
+}

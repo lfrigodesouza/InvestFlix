@@ -1,7 +1,7 @@
 {
   "categorias": [
     {
-      "titulo": "Front End",
+      "titulo": "Política",
       "link": "https://www.alura.com.br/formacao-front-end",
       "cor": "#6BD1FF",
       "link_extra": {
@@ -10,174 +10,220 @@
       },
       "videos": [
         {
-          "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+          "titulo": "O que é Podcast?",
+          "url": "https://www.youtube.com/watch?v=H0zK1ZK7EHo",
+          "imagem": ""
         },
         {
-          "titulo": "SEO com React",
-          "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+          "titulo": "Xadrez Verbal #236 Beijing, we have a problem",
+          "url": "http://www.central3.com.br/xadrez-verbal-236-beijing-we-have-a-problem/",
+          "imagem": "http://www.central3.com.br/wp-content/uploads/2020/07/Xadrez_Verbal_236_C3-255x170.jpg"
         },
         {
-          "titulo": "Componentização com VanillaJS #AluraMais",
-          "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+          "titulo": "Repertório #12 OTO",
+          "url": "http://www.central3.com.br/repertorio-12-oto/",
+          "imagem": "http://www.central3.com.br/wp-content/uploads/2020/06/Repertorio_12_OTO_C3-300x200.jpg"
         },
         {
-          "titulo": "Pare de chutar e aprenda a display: inline #01",
-          "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
+          "titulo": "Especial Coronavírus #17",
+          "url": "http://www.central3.com.br/especial-coronavirus-17/",
+          "imagem": "http://www.central3.com.br/wp-content/uploads/2020/07/Xadrez_Verbal_Especial_Coronavirus_17_C3-300x200.jpg"
         },
         {
-          "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
-          "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
+          "titulo": "Xadrez Verbal #235 Girão de Notícias",
+          "url": "http://www.central3.com.br/xadrez-verbal-235-girao-de-noticias/",
+          "imagem": "http://www.central3.com.br/wp-content/uploads/2020/07/Xadrez_Verbal_235_c3-255x170.jpg"
         },
         {
-          "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
+          "titulo": "Xadrez Verbal #234 Sandzilla",
+          "url": "http://www.central3.com.br/xadrez-verbal-234-sandzilla/",
+          "imagem": "http://www.central3.com.br/wp-content/uploads/2020/06/Xadrez_Verbal_234_C3-255x170.jpg"
         },
         {
-          "titulo": "Novidades do Angular v9",
-          "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
-        },
-        {
-          "titulo": "Base para aprender os frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
-        }        
+          "titulo": "Repertório #11 Carolina Larriera",
+          "url": "http://www.central3.com.br/repertorio-11-carolina-larriera/",
+          "imagem": "http://www.central3.com.br/wp-content/uploads/2020/05/Carolina-Larriera-300x200.jpg"
+        }
       ]
     },
     {
-      "titulo": "Back End",
+      "titulo": "Esporte",
       "cor": "#00C86F",
       "link_extra": {
-        "text": "Cursos de Back End na Alura",
+        "text": "",
         "url": "https://www.alura.com.br/cursos-online-programacao"
       },
       "videos": [
         {
-          "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-          "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
+          "titulo": "Trivela #286 O Fair Play Financeiro acabou?",
+          "url": "http://www.central3.com.br/trivela-286-o-fair-play-financeiro-acabou/",
+          "imagem": "http://www.central3.com.br/wp-content/uploads/2020/07/Uefa-logo-255x170.jpg"
         },
         {
-          "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-          "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
+          "titulo": "Trivela #283 LIVERPOOL CAMPEÃO INGLÊS!",
+          "url": "http://www.central3.com.br/trivela-283-liverpool-campeao-ingles/",
+          "imagem": "http://www.central3.com.br/wp-content/uploads/2020/06/Liverpool-Anfield-255x170.jpg"
         },
         {
-          "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
-          "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
+          "titulo": "Palmeiras 2x1 Água Santa - Por que tanta dificuldade para criar jogadas?",
+          "url": "https://anchor.fm/analiseverdao/episodes/Palmeiras-2x1-gua-Santa---Por-que-tanta-dificuldade-para-criar-jogadas-ehaqps/a-a2q7dvv",
+          "imagem": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode400/1183245/1183245-1595884830090-7db8270059186.jpg"
         },
         {
-          "titulo": "API: Dicionário do Programador",
-          "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
-        }, 
+          "titulo": "Trivela #281",
+          "url": "http://www.central3.com.br/trivela-281/",
+          "imagem": "http://www.central3.com.br/wp-content/uploads/2020/06/LaLiga-300x200.jpg"
+        },
         {
-          "titulo": "Usando Git Direito",
-          "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
+          "titulo": "Corinthians 1x0 Palmeiras: como explicar mais uma derrota no dérbi?",
+          "url": "https://anchor.fm/analiseverdao/episodes/Corinthians-1x0-Palmeiras-como-explicar-mais-uma-derrota-no-drbi-eh51op/a-a2p7rjt",
+          "imagem": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode400/1183245/1183245-1595536129716-8ebe8139d35c9.jpg"
+        },
+        {
+          "titulo": "O futuro da F1 no BRASIL e Márquez na MOTOGP e a abertura da STOCK CAR | Paddock #207",
+          "url": "http://www.central3.com.br/o-futuro-da-f1-no-brasil-e-marquez-na-motogp-e-a-abertura-da-stock-car-paddock-207/",
+          "imagem": "http://www.central3.com.br/wp-content/uploads/2020/07/Paddock_GP_207-255x170.jpg"
+        },
+        {
+          "titulo": "EMERSON FITTIPALDI: 50 anos da ESTREIA do bicampeão na F1 | Cadeira Cativa #16",
+          "url": "http://www.central3.com.br/emerson-fittipaldi-50-anos-da-estreia-do-bicampeao-na-f1-cadeira-cativa-16/",
+          "imagem": "http://www.central3.com.br/wp-content/uploads/2020/07/CadeiraCativa-16-255x170.jpg"
         }
       ]
     },
     {
-      "titulo": "Data Science e Inteligência Artificial",
+      "titulo": "Tecnologia",
       "cor": "#9cd33b",
       "link_extra": {
-        "text": "Cursos de Data Science na Alura",
+        "text": "",
         "url": "https://www.alura.com.br/formacao-data-science"
       },
       "videos": [
         {
-          "titulo": "Teste de Turing",
-          "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
+          "titulo": "Google for Startups – Hipsters #211",
+          "url": "https://hipsters.tech/google-for-startups-hipsters-211/",
+          "imagem": "https://i1.wp.com/hipsters.tech/wp-content/uploads/2020/07/Hipsters-Ponto-Tech-211-1200x628-1.png?w=1200&ssl=1"
         },
         {
-          "titulo": "O que é Data Science?",
-          "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
+          "titulo": "Scala – Hipsters #210",
+          "url": "https://hipsters.tech/scala-hipsters-210/",
+          "imagem": "https://i0.wp.com/hipsters.tech/wp-content/uploads/2020/07/Hipsters-Ponto-Tech-210-1200x628-1.png?w=1200&ssl=1"
         },
         {
-          "titulo": "Melhor forma de aprender Python",
-          "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
+          "titulo": "Engenharia de dados na Serasa Experian – Hipsters On The Road #37",
+          "url": "https://hipsters.tech/engenharia-de-dados-na-serasa-experian-hipsters-on-the-road-37/",
+          "imagem": "https://i2.wp.com/hipsters.tech/wp-content/uploads/2020/07/Hipsters-On-The-Road-37-1200x628-1.png?w=1200&ssl=1"
         },
         {
-          "titulo": "Como ingressar no mercado de Data Science?",
-          "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
+          "titulo": "Guia do iniciante em React – Hipsters #209",
+          "url": "https://hipsters.tech/guia-do-iniciante-em-react-hipsters-209/",
+          "imagem": "https://i2.wp.com/hipsters.tech/wp-content/uploads/2020/07/Hipsters-Ponto-Tech-209-1200x628-1.png?w=1200&ssl=1"
+        },
+        {
+          "titulo": "The future of Windows with Mary-Jo Foley",
+          "url": "https://www.windowscentral.com/windows-central-podcast-188",
+          "imagem": "https://www.windowscentral.com/sites/wpcentral.com/files/styles/larger_wm_brb/public/field/image/2020/03/windows-10x-mock-laptop-dark1.jpg"
         }
       ]
     },
     {
-      "titulo": "Filmes",
+      "titulo": "História",
       "cor": "orange",
       "videos": [
         {
-          "titulo": "Interestellar",
-          "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+          "titulo": "Fronteiras Invisíveis do Futebol #93 História da Lituânia",
+          "url": "http://www.central3.com.br/fronteiras-invisiveis-do-futebol-93-historia-da-lituania/",
+          "imagem": "http://www.central3.com.br/wp-content/uploads/2020/03/Litu%C3%A2nia-255x170.jpg"
         },
         {
-          "titulo": "Gattaca",
-          "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
+          "titulo": "Fronteiras Invisíveis do Futebol #92 História de Veneza",
+          "url": "http://www.central3.com.br/fronteiras-invisiveis-do-futebol-92-historia-de-veneza/",
+          "imagem": "http://www.central3.com.br/wp-content/uploads/2020/02/Veneza-255x170.jpg"
         },
         {
-          "titulo": "A Chegada",
-          "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
+          "titulo": "O Conde de Saint-Germain",
+          "url": "https://escribacafe.com/o-conde-de-saint-germain/",
+          "imagem": "https://escribacafe.com/wp-content/uploads/Count_of_St_Germain-59615b225f9b583f180c911b.jpg"
         },
         {
-          "titulo": "Feitiço do Tempo",
-          "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
+          "titulo": "A Peste Negra",
+          "url": "https://escribacafe.com/a-peste-negra/",
+          "imagem": "https://escribacafe.com/wp-content/uploads/Flagellants-Black-Death-Netherlands-atonement-sins-God-1536x865.jpg"
+        },
+        {
+          "titulo": "O Genocídio belga no Congo Pt2 – Geopizza #31",
+          "url": "https://geopizza.com.br/2020/07/26/o-genocidio-belga-no-congo-pt2-geopizza-31/",
+          "imagem": "https://i0.wp.com/geopizza.com.br/wp-content/uploads/2020/07/Geopizza-031-Genoc%C3%ADdio-Belga-no-Congo-Parte-2.png?resize=1140%2C641&ssl=1"
+        },
+        {
+          "titulo": "O Genocídio belga no Congo Pt1 – Geopizza #30",
+          "url": "https://geopizza.com.br/2020/07/12/o-genocidio-belga-no-congo-geopizza-30/",
+          "imagem": "https://i0.wp.com/geopizza.com.br/wp-content/uploads/2020/07/Geopizza-030-Genoc%C3%ADdio-Belga-no-Congo-Parte-1-1.png?resize=540%2C304&ssl=1"
         }
       ]
     },
     {
-      "titulo": "Games",
+      "titulo": "Investimentos",
       "cor": "red",
       "link_extra": {
-        "text": "Formação de Jogos na Alura",
+        "text": "",
         "url": "https://www.alura.com.br/formacao-jogos-unity"
       },
       "videos": [
         {
-          "titulo": "Final Fantasy 7",
-          "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
+          "titulo": "EP 53 - Explicando Fundos - Um novo espaço para traduzir o universo dos Fundos de Investimento",
+          "url": "https://soundcloud.com/user-538573384/ep-53-explicando-fundos-um-novo-espaco-para-traduzir-o-universo-dos-fundos-de-investimento",
+          "imagem": "https://i1.sndcdn.com/artworks-yzyzszGQOHQW9Jhp-1JRxxg-t500x500.jpg"
         },
         {
-          "titulo": "Assassins Creed Valhalla",
-          "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
+          "titulo": "EP 57 - Comprei minha primeira ação na crise. E agora?",
+          "url": "https://soundcloud.com/user-538573384/ep-57-comprei-minha-primeira-acao-na-crise-e-agora",
+          "imagem": "https://i1.sndcdn.com/artworks-myzclgz83dsmN4az-HN1lvA-t500x500.jpg"
         },
         {
-          "titulo": "God of War 4",
-          "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
+          "titulo": "GainCast#54 - Dois traders que são sócios mas ainda não se conhecem...",
+          "url": "https://www.gaincast.com.br/episodios/episode/78104125/gaincast54-dois-traders-que-sao-socios-mas-ainda-nao-se-conhecem-pessoalmente-devido-ao-covid-19",
+          "imagem": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/64366412db525094b4803984b0128bf0.jpg"
         },
         {
-          "titulo": "Resident Evil 8",
-          "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
+          "titulo": "GainCast#53 - Oliver Velez, a história de um dos maiores traders do mundo",
+          "url": "https://www.gaincast.com.br/episodios/episode/7a24359d/gaincast53-oliver-velez-a-historia-de-um-dos-maiores-traders-do-mundo",
+          "imagem": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/64366412db525094b4803984b0128bf0.jpg"
         },
         {
-          "titulo": "Pokémon Let's Go Pikachu/Eevee",
-          "url": "https://www.youtube.com/watch?v=L56q_k2ydrs"
+          "titulo": "144 Investiu na Bolsa? Você tem que fazer a Declaração de Imposto de Renda",
+          "url": "https://www.spreaker.com/user/dicascurtas/144-investiu-na-bolsa-voce-tem-que-fazer",
+          "imagem": "https://d3wo5wojvuv7l.cloudfront.net/t_square_limited_320/images.spreaker.com/original/234e35c97061813db18f374bffc0081e.jpg"
         }
       ]
     },
     {
-      "titulo": "Aprendendo a aprender tecnologia",
+      "titulo": "Variedades",
       "cor": "#6b5be2",
       "link_extra": {
-        "text": "Curso sobre aprendizado na Alura",
+        "text": "",
         "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
       },
       "videos": [
         {
-          "titulo": "Como estudar melhor?",
-          "url": "https://www.youtube.com/watch?v=Is6c9KSGCbk&feature=youtu.be"
+          "titulo": "The Convict",
+          "url": "https://officeladies.com/episodes/2020/07/29/episode-38-the-convict",
+          "imagem": "https://omny.fm/shows/office-ladies/image.jpg"
         },
         {
-          "titulo": "Faculdade",
-          "url": "https://www.youtube.com/watch?v=jw06H8esyzQ&feature=youtu.be"
+          "titulo": "The Merger",
+          "url": "https://officeladies.com/episodes/2020/07/22/episode-37-the-merger",
+          "imagem": "https://omny.fm/shows/office-ladies/image.jpg"
         },
         {
-          "titulo": "Frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+          "titulo": "Episode 61: Twitch Donations",
+          "url": "https://www.spreaker.com/user/hjmadigan/twitch-donations",
+          "imagem": "https://d3wo5wojvuv7l.cloudfront.net/t_square_limited_320/images.spreaker.com/original/6c18fb0573f913198e88933c2942dc2d.jpg"
         },
         {
-          "titulo": "A mágica do Aprendizado",
-          "url": "https://www.youtube.com/watch?v=oTEXzpfEpPY"
-        },
-        {
-          "titulo": "Como aprender a programar?",
-          "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
+          "titulo": "T2#076 Hábitos Atômicos | James Clear",
+          "url": "https://open.spotify.com/episode/7J3Abb2IqV6FGyUlBQfZIU",
+          "imagem": "https://i.scdn.co/image/d624521608a90cd39541c2e9a5a0ec11788a45db"
         }
       ]
     }
