@@ -1,13 +1,14 @@
-import React, { useState } from "react";
-import PageDefault from "../../../components/PageDefault";
-import { Link } from "react-router-dom";
-import FormField from "../../../components/FormField";
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+import PageDefault from '../../../components/PageDefault';
+import FormField from '../../../components/FormField';
+import Button from '../../../components/Button';
 
 function CadastroCategoria() {
   const valoresIniciais = {
-    nome: "",
-    descricao: "",
-    cor: ""
+    nome: '',
+    descricao: '',
+    cor: '',
   };
   const [categorias, setCategorias] = useState([]);
   const [valoresFormulario, setValoresFormulario] = useState(valoresIniciais);
@@ -15,7 +16,7 @@ function CadastroCategoria() {
   function setValue(key, value) {
     setValoresFormulario({
       ...valoresFormulario,
-      [key]: value
+      [key]: value,
     });
   }
 
@@ -26,7 +27,10 @@ function CadastroCategoria() {
 
   return (
     <PageDefault>
-      <h1>Cadastro de Categoria: {valoresFormulario.nome}</h1>
+      <h1>
+        Cadastro de Categoria:
+        {valoresFormulario.nome}
+      </h1>
 
       <form
         onSubmit={(evt) => {
@@ -36,37 +40,35 @@ function CadastroCategoria() {
         }}
       >
 
-        <FormField 
-        type="text"
-        name="nome"
-        label="Nome da Categoria"
-        value={valoresFormulario.nome}
-        onChange={onChangeHandler}
+        <FormField
+          type="text"
+          name="nome"
+          label="Nome da Categoria"
+          value={valoresFormulario.nome}
+          onChange={onChangeHandler}
         />
 
         <FormField
-        type="textArea"
-        name="descricao"
-        label="Descrição"
-        value={valoresFormulario.descricao}
-        onChange={onChangeHandler}
+          type="textArea"
+          name="descricao"
+          label="Descrição"
+          value={valoresFormulario.descricao}
+          onChange={onChangeHandler}
         />
 
-        <FormField 
-        type= "color"
-        name="cor"
-        label="Cor"
-        value={valoresFormulario.cor}
-        onChange={onChangeHandler}
+        <FormField
+          type="color"
+          name="cor"
+          label="Cor"
+          value={valoresFormulario.cor}
+          onChange={onChangeHandler}
         />
 
-        <button>Cadastrar</button>
+        <Button>Cadastrar</Button>
       </form>
 
       <ul>
-        {categorias.map((categoria, index) => {
-          return <li key={`${categoria.nome}${index}`}>{categoria.nome}</li>;
-        })}
+        {categorias.map((categoria, index) => <li key={`${categoria.nome}${index}`}>{categoria.nome}</li>)}
       </ul>
 
       <Link to="/">Ir para home</Link>

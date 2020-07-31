@@ -14,6 +14,11 @@ function Footer() {
           Imersão React da Alura
         </a>
       </p>
+      <p>
+        <a href="http://LFrigoDeSouza.NET" target="_blank" rel="noopener noreferrer">
+          LFrigoDeSouza.NET
+        </a>
+      </p>
     </FooterBase>
   );
 }

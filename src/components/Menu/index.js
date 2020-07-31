@@ -6,12 +6,12 @@ import './menu.css';
 
 function Menu() {
   return (
-    <nav className='Menu'>
-      <Link to='/'>
-        <img className='Logo' src={Logo} alt='PodFlix Logo' />
+    <nav className="Menu">
+      <Link to="/">
+        <img className="Logo" src={Logo} alt="PodFlix Logo" />
       </Link>
 
-      <Button as={Link} className='ButtonLink' to='/cadastro/video'>
+      <Button as={Link} className="ButtonLink" to="/cadastro/podcast">
         Novo Podcast
       </Button>
     </nav>
