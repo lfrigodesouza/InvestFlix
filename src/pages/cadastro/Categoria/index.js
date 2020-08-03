@@ -49,7 +49,7 @@ function CadastroCategoria() {
         />
 
         <FormField
-          type="textArea"
+          type="textarea"
           name="descricao"
           label="Descrição"
           value={valoresFormulario.descricao}
@@ -68,7 +68,7 @@ function CadastroCategoria() {
       </form>
 
       <ul>
-        {categorias.map((categoria, index) => <li key={`${categoria.nome}${index}`}>{categoria.nome}</li>)}
+        {categorias.map((categoria) => <li key={`${categoria.nome}`}>{categoria.nome}</li>)}
       </ul>
 
       <Link to="/">Ir para home</Link>
