@@ -1,0 +1,16 @@
+{
+  "categorias": [
+    {
+      "id": 1,
+      "nome": "Política",
+      "descricao": "Política nacional e internacional",
+      "cor": "#6BD1FF"
+    },
+    {
+        "id": 2,
+        "nome": "Esporte",
+        "descricao": "Futebol, F1, Rugby e muito mais",
+        "cor": "#00C86F"
+      }
+  ]
+}
