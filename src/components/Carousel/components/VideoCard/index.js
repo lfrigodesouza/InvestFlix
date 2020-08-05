@@ -2,9 +2,11 @@ import React from 'react';
 import { VideoCardContainer } from './styles';
 import './style.css';
 
-function VideoCard({ imagem, videoTitle, videoURL, categoryColor }) {
+function VideoCard({
+  imagem, videoTitle, videoURL, categoryColor,
+}) {
   return (
-    <div class="image-container">
+    <div className="image-container">
       <VideoCardContainer
         url={imagem}
         href={videoURL}
@@ -12,7 +14,7 @@ function VideoCard({ imagem, videoTitle, videoURL, categoryColor }) {
         style={{ borderColor: categoryColor || 'red' }}
         title={videoTitle}
       />
-      <div class="image-caption">
+      <div className="image-caption">
         {videoTitle}
       </div>
     </div>

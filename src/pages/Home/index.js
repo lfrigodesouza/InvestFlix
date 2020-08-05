@@ -1,35 +1,44 @@
-import React from 'react';
-import Menu from '../../components/Menu';
-import dadosIniciais from '../../data/dados_iniciais.json';
+import React, { useEffect, useState } from 'react';
 import BannerMain from '../../components/BannerMain';
 import Carousel from '../../components/Carousel';
-import Footer from '../../components/Footer';
+import categoriesRepository from '../../repositories/categorias';
+import PageDefault from '../../components/PageDefault';
 
 function Home() {
+  const [dadosIniciais, setDadosIniciais] = useState([]);
+
+  useEffect(() => {
+    categoriesRepository
+      .getAllWithVideos()
+      .then((categoriasComVideos) => {
+        setDadosIniciais(categoriasComVideos);
+      })
+      .catch((err) => {
+        console.log(err.message);
+      });
+  }, []);
+
   return (
-    <div style={{ background: '#141414' }}>
-      <Menu />
+    <PageDefault paddingAll={0} style={{ background: '#141414' }}>
+      {dadosIniciais.length === 0 && <div>Carregando...</div>}
+      {dadosIniciais.length >= 1 && (
+        <>
+          <BannerMain
+            videoTitle={dadosIniciais[0].videos[0].titulo}
+            url={dadosIniciais[0].videos[0].url}
+            videoDescription="Você sabe o que é podcast?"
+          />
 
-      <BannerMain
-        videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
-        url={dadosIniciais.categorias[0].videos[0].url}
-        videoDescription={'Você sabe o que é podcast?'}
-      />
+          <Carousel ignoreFirstVideo category={dadosIniciais[0]} />
+        </>
+      )}
 
-      <Carousel ignoreFirstVideo category={dadosIniciais.categorias[0]} />
+      {dadosIniciais.map((categoria, index) => {
+        if (index === 0) return <></>;
 
-      <Carousel category={dadosIniciais.categorias[1]} />
-
-      <Carousel category={dadosIniciais.categorias[2]} />
-
-      <Carousel category={dadosIniciais.categorias[3]} />
-
-      <Carousel category={dadosIniciais.categorias[4]} />
-
-      <Carousel category={dadosIniciais.categorias[5]} />
-
-      <Footer />
-    </div>
+        return <Carousel key={`carousel_${categoria.titulo}`} category={categoria} />;
+      })}
+    </PageDefault>
   );
 }
 

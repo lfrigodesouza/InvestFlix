@@ -1,16 +1,298 @@
 {
   "categorias": [
     {
-      "id": 1,
-      "nome": "Política",
-      "descricao": "Política nacional e internacional",
-      "cor": "#6BD1FF"
+      "id": 6,
+      "titulo": "Variedades",
+      "cor": "#6b5be2",
+      "link_extra": {
+        "text": "Assuntos diversos",
+        "url": ""
+      }
     },
     {
-        "id": 2,
-        "nome": "Esporte",
-        "descricao": "Futebol, F1, Rugby e muito mais",
-        "cor": "#00C86F"
+      "id": 5,
+      "titulo": "Investimentos",
+      "cor": "red",
+      "link_extra": {
+        "text": "Melhore seu poder de investir",
+        "url": ""
       }
+    },
+    {
+      "id": 4,
+      "titulo": "História",
+      "cor": "#FFA500",
+      "link_extra": {
+        "text": "Não repita os erros do passado",
+        "url": ""
+      }
+    },
+    {
+      "id": 1,
+      "titulo": "Política",
+      "cor": "#6BD1FF",
+      "link_extra": {
+        "text": "Fique por dentro do que ocorre no Brasil e no mundo",
+        "url": ""
+      }
+    },
+    {
+      "id": 2,
+      "titulo": "Esporte",
+      "cor": "#00C86F",
+      "link_extra": {
+        "text": "Quem vive sem esporte?",
+        "url": ""
+      }
+    },
+    {
+      "id": 3,
+      "titulo": "Tecnologia",
+      "cor": "#9cd33b",
+      "link_extra": {
+        "text": "Acompanhe o mundo Tech",
+        "url": ""
+      }
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 6,
+      "titulo": "O que é Podcast?",
+      "url": "https://www.youtube.com/watch?v=H0zK1ZK7EHo",
+      "imagem": ""
+    },
+    {
+      "titulo": "Xadrez Verbal #236 Beijing, we have a problem",
+      "url": "http://www.central3.com.br/xadrez-verbal-236-beijing-we-have-a-problem/",
+      "imagem": "http://www.central3.com.br/wp-content/uploads/2020/07/Xadrez_Verbal_236_C3-255x170.jpg",
+      "categoriaId": 1,
+      "id": 2
+    },
+    {
+      "titulo": "Repertório #12 OTO",
+      "url": "http://www.central3.com.br/repertorio-12-oto/",
+      "imagem": "http://www.central3.com.br/wp-content/uploads/2020/06/Repertorio_12_OTO_C3-300x200.jpg",
+      "categoriaId": 1,
+      "id": 3
+    },
+    {
+      "titulo": "Especial Coronavírus #17",
+      "url": "http://www.central3.com.br/especial-coronavirus-17/",
+      "imagem": "http://www.central3.com.br/wp-content/uploads/2020/07/Xadrez_Verbal_Especial_Coronavirus_17_C3-300x200.jpg",
+      "categoriaId": 1,
+      "id": 4
+    },
+    {
+      "titulo": "Xadrez Verbal #235 Girão de Notícias",
+      "url": "http://www.central3.com.br/xadrez-verbal-235-girao-de-noticias/",
+      "imagem": "http://www.central3.com.br/wp-content/uploads/2020/07/Xadrez_Verbal_235_c3-255x170.jpg",
+      "categoriaId": 1,
+      "id": 5
+    },
+    {
+      "titulo": "Xadrez Verbal #234 Sandzilla",
+      "url": "http://www.central3.com.br/xadrez-verbal-234-sandzilla/",
+      "imagem": "http://www.central3.com.br/wp-content/uploads/2020/06/Xadrez_Verbal_234_C3-255x170.jpg",
+      "categoriaId": 1,
+      "id": 6
+    },
+    {
+      "titulo": "Repertório #11 Carolina Larriera",
+      "url": "http://www.central3.com.br/repertorio-11-carolina-larriera/",
+      "imagem": "http://www.central3.com.br/wp-content/uploads/2020/05/Carolina-Larriera-300x200.jpg",
+      "categoriaId": 1,
+      "id": 7
+    },
+    {
+      "titulo": "Trivela #286 O Fair Play Financeiro acabou?",
+      "url": "http://www.central3.com.br/trivela-286-o-fair-play-financeiro-acabou/",
+      "imagem": "http://www.central3.com.br/wp-content/uploads/2020/07/Uefa-logo-255x170.jpg",
+      "categoriaId": 2,
+      "id": 8
+    },
+    {
+      "titulo": "Trivela #283 LIVERPOOL CAMPEÃO INGLÊS!",
+      "url": "http://www.central3.com.br/trivela-283-liverpool-campeao-ingles/",
+      "imagem": "http://www.central3.com.br/wp-content/uploads/2020/06/Liverpool-Anfield-255x170.jpg",
+      "categoriaId": 2,
+      "id": 9
+    },
+    {
+      "titulo": "Palmeiras 2x1 Água Santa - Por que tanta dificuldade para criar jogadas?",
+      "url": "https://anchor.fm/analiseverdao/episodes/Palmeiras-2x1-gua-Santa---Por-que-tanta-dificuldade-para-criar-jogadas-ehaqps/a-a2q7dvv",
+      "imagem": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode400/1183245/1183245-1595884830090-7db8270059186.jpg",
+      "categoriaId": 2,
+      "id": 10
+    },
+    {
+      "titulo": "Trivela #281",
+      "url": "http://www.central3.com.br/trivela-281/",
+      "imagem": "http://www.central3.com.br/wp-content/uploads/2020/06/LaLiga-300x200.jpg",
+      "categoriaId": 2,
+      "id": 11
+    },
+    {
+      "titulo": "Corinthians 1x0 Palmeiras: como explicar mais uma derrota no dérbi?",
+      "url": "https://anchor.fm/analiseverdao/episodes/Corinthians-1x0-Palmeiras-como-explicar-mais-uma-derrota-no-drbi-eh51op/a-a2p7rjt",
+      "imagem": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode400/1183245/1183245-1595536129716-8ebe8139d35c9.jpg",
+      "categoriaId": 2,
+      "id": 12
+    },
+    {
+      "titulo": "O futuro da F1 no BRASIL e Márquez na MOTOGP e a abertura da STOCK CAR | Paddock #207",
+      "url": "http://www.central3.com.br/o-futuro-da-f1-no-brasil-e-marquez-na-motogp-e-a-abertura-da-stock-car-paddock-207/",
+      "imagem": "http://www.central3.com.br/wp-content/uploads/2020/07/Paddock_GP_207-255x170.jpg",
+      "categoriaId": 2,
+      "id": 13
+    },
+    {
+      "titulo": "EMERSON FITTIPALDI: 50 anos da ESTREIA do bicampeão na F1 | Cadeira Cativa #16",
+      "url": "http://www.central3.com.br/emerson-fittipaldi-50-anos-da-estreia-do-bicampeao-na-f1-cadeira-cativa-16/",
+      "imagem": "ttp://www.central3.com.br/wp-content/uploads/2020/07/CadeiraCativa-16-255x170.jpg",
+      "categoriaId": 2,
+      "id": 14
+    },
+    {
+      "titulo": "Google for Startups – Hipsters #211",
+      "url": "https://hipsters.tech/google-for-startups-hipsters-211/",
+      "imagem": "https://i1.wp.com/hipsters.tech/wp-content/uploads/2020/07/Hipsters-Ponto-Tech-211-1200x628-1.png?w=1200&ssl=1",
+      "categoriaId": 3,
+      "id": 15
+    },
+    {
+      "titulo": "Scala – Hipsters #210",
+      "url": "https://hipsters.tech/scala-hipsters-210/",
+      "imagem": "https://i0.wp.com/hipsters.tech/wp-content/uploads/2020/07/Hipsters-Ponto-Tech-210-1200x628-1.png?w=1200&ssl=1",
+      "categoriaId": 3,
+      "id": 16
+    },
+    {
+      "titulo": "Engenharia de dados na Serasa Experian – Hipsters On The Road #37",
+      "url": "https://hipsters.tech/engenharia-de-dados-na-serasa-experian-hipsters-on-the-road-37/",
+      "imagem": "https://i2.wp.com/hipsters.tech/wp-content/uploads/2020/07/Hipsters-On-The-Road-37-1200x628-1.png?w=1200&ssl=1",
+      "categoriaId": 3,
+      "id": 17
+    },
+    {
+      "titulo": "Guia do iniciante em React – Hipsters #209",
+      "url": "https://hipsters.tech/guia-do-iniciante-em-react-hipsters-209/",
+      "imagem": "https://i2.wp.com/hipsters.tech/wp-content/uploads/2020/07/Hipsters-Ponto-Tech-209-1200x628-1.png?w=1200&ssl=1",
+      "categoriaId": 3,
+      "id": 18
+    },
+    {
+      "titulo": "The future of Windows with Mary-Jo Foley",
+      "url": "https://www.windowscentral.com/windows-central-podcast-188",
+      "imagem": "https://www.windowscentral.com/sites/wpcentral.com/files/styles/larger_wm_brb/public/field/image/2020/03/windows-10x-mock-laptop-dark1.jpg",
+      "categoriaId": 3,
+      "id": 19
+    },
+    {
+      "titulo": "Fronteiras Invisíveis do Futebol #93 História da Lituânia",
+      "url": "http://www.central3.com.br/fronteiras-invisiveis-do-futebol-93-historia-da-lituania/",
+      "imagem": "http://www.central3.com.br/wp-content/uploads/2020/03/Litu%C3%A2nia-255x170.jpg",
+      "categoriaId": 4,
+      "id": 20
+    },
+    {
+      "titulo": "Fronteiras Invisíveis do Futebol #92 História de Veneza",
+      "url": "http://www.central3.com.br/fronteiras-invisiveis-do-futebol-92-historia-de-veneza/",
+      "imagem": "http://www.central3.com.br/wp-content/uploads/2020/02/Veneza-255x170.jpg",
+      "categoriaId": 4,
+      "id": 21
+    },
+    {
+      "titulo": "O Conde de Saint-Germain",
+      "url": "https://escribacafe.com/o-conde-de-saint-germain/",
+      "imagem": "https://escribacafe.com/wp-content/uploads/Count_of_St_Germain-59615b225f9b583f180c911b.jpg",
+      "categoriaId": 4,
+      "id": 22
+    },
+    {
+      "titulo": "A Peste Negra",
+      "url": "https://escribacafe.com/a-peste-negra/",
+      "imagem": "https://escribacafe.com/wp-content/uploads/Flagellants-Black-Death-Netherlands-atonement-sins-God-1536x865.jpg",
+      "categoriaId": 4,
+      "id": 23
+    },
+    {
+      "titulo": "O Genocídio belga no Congo Pt2 – Geopizza #31",
+      "url": "https://geopizza.com.br/2020/07/26/o-genocidio-belga-no-congo-pt2-geopizza-31/",
+      "imagem": "https://i0.wp.com/geopizza.com.br/wp-content/uploads/2020/07/Geopizza-031-Genoc%C3%ADdio-Belga-no-Congo-Parte-2.png?resize=1140%2C641&ssl=1",
+      "categoriaId": 4,
+      "id": 24
+    },
+    {
+      "titulo": "O Genocídio belga no Congo Pt1 – Geopizza #30",
+      "url": "https://geopizza.com.br/2020/07/12/o-genocidio-belga-no-congo-geopizza-30/",
+      "imagem": "https://i0.wp.com/geopizza.com.br/wp-content/uploads/2020/07/Geopizza-030-Genoc%C3%ADdio-Belga-no-Congo-Parte-1-1.png?resize=540%2C304&ssl=1",
+      "categoriaId": 4,
+      "id": 25
+    },
+    {
+      "titulo": "EP 53 - Explicando Fundos - Um novo espaço para traduzir o universo dos Fundos de Investimento",
+      "url": "https://soundcloud.com/user-538573384/ep-53-explicando-fundos-um-novo-espaco-para-traduzir-o-universo-dos-fundos-de-investimento",
+      "imagem": "https://i1.sndcdn.com/artworks-yzyzszGQOHQW9Jhp-1JRxxg-t500x500.jpg",
+      "categoriaId": 5,
+      "id": 26
+    },
+    {
+      "titulo": "EP 57 - Comprei minha primeira ação na crise. E agora?",
+      "url": "https://soundcloud.com/user-538573384/ep-57-comprei-minha-primeira-acao-na-crise-e-agora",
+      "imagem": "https://i1.sndcdn.com/artworks-myzclgz83dsmN4az-HN1lvA-t500x500.jpg",
+      "categoriaId": 5,
+      "id": 27
+    },
+    {
+      "titulo": "GainCast#54 - Dois traders que são sócios mas ainda não se conhecem...",
+      "url": "https://www.gaincast.com.br/episodios/episode/78104125/gaincast54-dois-traders-que-sao-socios-mas-ainda-nao-se-conhecem-pessoalmente-devido-ao-covid-19",
+      "imagem": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/64366412db525094b4803984b0128bf0.jpg",
+      "categoriaId": 5,
+      "id": 28
+    },
+    {
+      "titulo": "GainCast#53 - Oliver Velez, a história de um dos maiores traders do mundo",
+      "url": "https://www.gaincast.com.br/episodios/episode/7a24359d/gaincast53-oliver-velez-a-historia-de-um-dos-maiores-traders-do-mundo",
+      "imagem": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/64366412db525094b4803984b0128bf0.jpg",
+      "categoriaId": 5,
+      "id": 29
+    },
+    {
+      "titulo": "144 Investiu na Bolsa? Você tem que fazer a Declaração de Imposto de Renda",
+      "url": "https://www.spreaker.com/user/dicascurtas/144-investiu-na-bolsa-voce-tem-que-fazer",
+      "imagem": "https://d3wo5wojvuv7l.cloudfront.net/t_square_limited_320/images.spreaker.com/original/234e35c97061813db18f374bffc0081e.jpg",
+      "categoriaId": 5,
+      "id": 30
+    },
+    {
+      "titulo": "The Convict",
+      "url": "https://officeladies.com/episodes/2020/07/29/episode-38-the-convict",
+      "imagem": "https://omny.fm/shows/office-ladies/image.jpg",
+      "categoriaId": 6,
+      "id": 31
+    },
+    {
+      "titulo": "The Merger",
+      "url": "https://officeladies.com/episodes/2020/07/22/episode-37-the-merger",
+      "imagem": "https://omny.fm/shows/office-ladies/image.jpg",
+      "categoriaId": 6,
+      "id": 32
+    },
+    {
+      "titulo": "Episode 61: Twitch Donations",
+      "url": "https://www.spreaker.com/user/hjmadigan/twitch-donations",
+      "imagem": "https://d3wo5wojvuv7l.cloudfront.net/t_square_limited_320/images.spreaker.com/original/6c18fb0573f913198e88933c2942dc2d.jpg",
+      "categoriaId": 6,
+      "id": 33
+    },
+    {
+      "titulo": "T2#076 Hábitos Atômicos | James Clear",
+      "url": "https://open.spotify.com/episode/7J3Abb2IqV6FGyUlBQfZIU",
+      "imagem": "https://i.scdn.co/image/d624521608a90cd39541c2e9a5a0ec11788a45db",
+      "categoriaId": 6,
+      "id": 34
+    }
   ]
 }

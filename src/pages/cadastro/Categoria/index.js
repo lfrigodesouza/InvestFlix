@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
+import useForm from '../../../hooks/useForm';
 
 function CadastroCategoria() {
   const valoresIniciais = {
@@ -10,23 +11,15 @@ function CadastroCategoria() {
     descricao: '',
     cor: '',
   };
+
+  const { onChangeHandler, valoresFormulario, clearForm } = useForm(valoresIniciais);
   const [categorias, setCategorias] = useState([]);
-  const [valoresFormulario, setValoresFormulario] = useState(valoresIniciais);
 
-  function setValue(key, value) {
-    setValoresFormulario({
-      ...valoresFormulario,
-      [key]: value,
-    });
-  }
+  useEffect(() => {
+    const URL = window.location.hostname.includes('localhost')
+      ? 'http://localhost:8080/categorias'
+      : 'https://podflix.herokuapp.com/categorias';
 
-  function onChangeHandler(evt) {
-    const { value } = evt.target;
-    setValue(evt.target.getAttribute('name'), value);
-  }
-
-  useEffect(() =>{
-    const URL = 'http://localhost:8080/categorias';
     fetch(URL)
       .then(async (res) => {
         const response = await res.json();
@@ -45,7 +38,7 @@ function CadastroCategoria() {
         onSubmit={(evt) => {
           evt.preventDefault();
           setCategorias([...categorias, valoresFormulario]);
-          setValoresFormulario(valoresIniciais);
+          clearForm();
         }}
       >
 
@@ -82,7 +75,7 @@ function CadastroCategoria() {
         </div>
       )}
       <ul>
-        {categorias.map((categoria) => <li key={`${categoria.nome}`}>{categoria.nome}</li>)}
+        {categorias.map((categoria) => <li key={`${categoria.nome}`}>{categoria.titulo}</li>)}
       </ul>
 
       <Link to="/">Ir para home</Link>
